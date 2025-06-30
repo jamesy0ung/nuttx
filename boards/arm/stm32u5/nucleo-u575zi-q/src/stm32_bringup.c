@@ -1,5 +1,5 @@
 /****************************************************************************
- * boards/arm/stm32u5/nucleo-u5a5zj-q/src/stm32_bringup.c
+ * boards/arm/stm32u5/nucleo-u575zi-q/src/stm32_bringup.c
  *
  * SPDX-License-Identifier: Apache-2.0
  *
@@ -36,7 +36,7 @@
 #include <nuttx/board.h>
 #include <nuttx/clock.h>
 
-#include "nucleo-u5a5zj-q.h"
+#include "nucleo-u575zi-q.h"
 
 #include <arch/board/board.h>
 
