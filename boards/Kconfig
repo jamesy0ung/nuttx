@@ -2950,6 +2950,14 @@ config ARCH_BOARD_B_U585I_IOT02A
 		MCU. The STM32U585AI is a Cortex-M33 optimised for low-power operation
 		at up to 160MHz operation with 2048Kb Flash memory and 768Kb SRAM.
 
+config ARCH_BOARD_NUCLEO_U575ZI_Q
+	bool "STMicro NUCLEO-U575ZI-Q board"
+	depends on ARCH_CHIP_STM32U585AI
+	---help---
+		STMicro development board featuring the STM32U575
+		MCU. The STM32U575 is a Cortex-M33 optimised for low-power operation
+		at up to 160MHz operation with 2048Kb Flash memory and 768Kb SRAM.
+
 config ARCH_BOARD_NUCLEO_U5A5ZJ_Q
 	bool "STMicro NUCLEO-U5A5ZJ-Q board"
 	depends on ARCH_CHIP_STM32U5A5ZJT
